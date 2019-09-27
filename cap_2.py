@@ -5,7 +5,7 @@ print(VALUE)
 print("we are printing the e upto the decimal place you want")
 
 
-def roundpi():
+def rounde():
     ''' printing the pi value upto given decimal places'''
     place = int(input("enter the limit of decimal value:"))
     if place in range(0,16):
@@ -14,4 +14,4 @@ def roundpi():
         print("pi has only 15 decimal places")
 
 
-roundpi()
+rounde()
