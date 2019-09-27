@@ -6,12 +6,12 @@ print("we are printing the e upto the decimal place you want")
 
 
 def rounde():
-    ''' printing the pi value upto given decimal places'''
+    ''' printing the e value upto given decimal places'''
     place = int(input("enter the limit of decimal value:"))
     if place in range(0,16):
-        print('your required value of pi is:', round(VALUE, place))
+        print('your required value of e is:', round(VALUE, place))
     else:
-        print("pi has only 15 decimal places")
+        print("e has only 15 decimal places")
 
 
 rounde()
